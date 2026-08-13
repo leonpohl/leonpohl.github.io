@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Leon Pohl monogram">
+  <rect width="512" height="512" rx="96" fill="#1B1A17"/>
+  <g stroke="#3a3833" stroke-width="2" fill="none">
+    <path d="M128 128H384M128 192H384M128 256H384M128 320H384M128 384H384"/>
+    <path d="M128 128V384M192 128V384M256 128V384M320 128V384M384 128V384"/>
+  </g>
+  <path d="M150 376V160H184V344H300V376Z" fill="#F7F4ED"/>
+  <circle cx="376" cy="160" r="20" fill="#C2410C"/>
+  <path d="M300 344c40 0 76-24 76-72" stroke="#C2410C" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>

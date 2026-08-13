@@ -2,44 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#F7F4ED" />
+
+    <title>Leon Pohl — Autonomous Driving Researcher & Research Infrastructure Engineer</title>
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Leon Pohl, Research Assistant at the Institute for Autonomous Driving, University of the Bundeswehr Munich. Building reproducible data systems for autonomous machines — Bird's-Eye-View perception, trajectory evaluation, and Bazel-based robotics dataset pipelines."
     />
-    <link rel="apple-touch-icon" href="/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="/manifest.json" />
-    <!--
-      Notice the use of  in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="keywords"
+      content="Leon Pohl, autonomous driving, Bird's-Eye-View, BEV, trajectory evaluation, reproducible datasets, Bazel, ROS, robotics, ROS bags, research, University of the Bundeswehr Munich"
+    />
+    <meta name="author" content="Leon Pohl" />
+    <meta name="robots" content="index, follow" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="canonical" href="https://leonpohl.github.io/" />
+
+    <!-- Icons / manifest -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Leon Pohl" />
+    <meta property="og:title" content="Leon Pohl — Autonomous Driving Researcher & Research Infrastructure Engineer" />
+    <meta
+      property="og:description"
+      content="Research Assistant at the Institute for Autonomous Driving, University of the Bundeswehr Munich. Building reproducible data systems for autonomous machines."
+    />
+    <meta property="og:url" content="https://leonpohl.github.io/" />
+    <meta property="og:image" content="https://leonpohl.github.io/leon-pohl.jpg" />
+    <meta property="og:image:alt" content="Portrait of Leon Pohl" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Leon Pohl — Autonomous Driving Researcher" />
+    <meta
+      name="twitter:description"
+      content="Building reproducible data systems for autonomous machines — BEV perception, trajectory evaluation, and Bazel-based robotics dataset pipelines."
+    />
+    <meta name="twitter:image" content="https://leonpohl.github.io/leon-pohl.jpg" />
+    <meta name="twitter:image:alt" content="Portrait of Leon Pohl" />
+
+    <!-- Structured data: Person (verified facts only) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Leon Pohl",
+        "givenName": "Leon",
+        "familyName": "Pohl",
+        "jobTitle": "Research Assistant",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "University of the Bundeswehr Munich"
+        },
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Institute for Autonomous Driving, University of the Bundeswehr Munich"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Munich",
+          "addressCountry": "Germany"
+        },
+        "email": "mailto:leon.pohl@unibw.de",
+        "url": "https://leonpohl.github.io/",
+        "image": "https://leonpohl.github.io/leon-pohl.jpg",
+        "knowsAbout": [
+          "Autonomous driving",
+          "Bird's-Eye-View perception",
+          "Trajectory evaluation",
+          "Reproducible datasets",
+          "Bazel",
+          "ROS"
+        ],
+        "sameAs": [
+          "https://github.com/leonpohl",
+          "https://orcid.org/0000-0002-0714-6921",
+          "https://www.youtube.com/@lepo19"
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="/bundle.css" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Leon Pohl — Research Assistant, Institute for Autonomous Driving, University of the Bundeswehr Munich. You can reach me at leon.pohl@unibw.de, on GitHub at leonpohl, or ORCID 0000-0002-0714-6921.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- bundle.css and bundle.js are injected by the build -->
     <script src="/bundle.js" defer></script>
   </body>
 </html>
