@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://leonpohl.github.io/sitemap.xml
+Sitemap: https://leonpohl.de/sitemap.xml
